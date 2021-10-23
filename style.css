@@ -1,0 +1,445 @@
+body {
+  min-width: 320px;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #212529;
+  margin: 0 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body,
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+main {
+  margin-top: 66px;
+}
+nav {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 66px;
+}
+.login > a {
+  color: #1d1d1d; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #fff; /* фон кнопки */
+}
+.login {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  padding: 0.6em 1em;
+  margin: 0.6em 0.9em;
+}
+.logo {
+  margin: auto 0;
+}
+.pers {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.cart {
+  align-self: center;
+}
+input {
+  color: #757575;
+  outline: none;
+  border-style: none;
+  border-bottom: 2px solid #757575;
+  margin-top: 3em;
+  width: 100%;
+}
+.search-form::after {
+  box-sizing: inherit;
+}
+.h1 {
+  font-size: 22px;
+  line-height: 34px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+.card {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card img {
+  width: auto;
+  flex-basis: auto;
+}
+.card p.name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.card p.cat {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.card p.time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 4px;
+}
+a {
+  text-decoration: none;
+}
+.card a .name {
+  color: #1d1d1d; /* цвет текста */
+  user-select: none;
+}
+.card {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: background-color 0.4s;
+}
+.card:hover {
+  background-color: #ebebeb;
+}
+.card:active{
+  background-color: rgb(206, 206, 206);
+}
+footer {
+  background-color: #262626;
+  margin-top: 80px;
+}
+.logo-bottom {
+  padding-top: 56px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+.info {
+  margin-top: 32px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+.info2 p,
+.info3 p {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 23px;
+}
+.lang {
+  width: 100%;
+  padding: 0.8em 1.3em;
+  background-color: #3b3b3b;
+  color: #fff;
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lang img:first-child {
+  margin-right: 7px;
+}
+.worldlang {
+  display: flex;
+  justify-content: flex-start;
+}
+.social span {
+  color: #49a144;
+}
+.social {
+  color: #fff;
+  margin-top: 33px;
+}
+.socialm {
+  display: flex;
+  margin-top: 17px;
+}
+.socialm img {
+  margin-right: 12px;
+}
+.download {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 40px;
+}
+.download-border {
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+.support {
+  margin-top: 16px;
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 13px;
+}
+.support div:not(.row) {
+  margin-top: 24px;
+}
+.wrapper {
+  margin: 0 auto;
+}
+
+.restaurant-bg {
+  margin-top: 66px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.restaurant-info {
+  height: 204px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.restaurant-name {
+  font-style: normal;
+  font-weight: normal;
+}
+.name-time {
+  display: flex;
+  margin-bottom: 1.4em;
+  align-items: center;
+}
+.restaurant-cuisine {
+  color: #626262;
+}
+.restaurant-time {
+  padding: 8px 16px;
+  color: #fff;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.rest-menu-bg {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.rest-menu {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rest-menu span:first-child {
+  color: #327430;
+}
+.carousel-head {
+  font-size: 22px;
+  line-height: 34px;
+}
+.carousel {
+  margin-top: 56px;
+}
+
+.dish-pic {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.rest-card {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.card-wrapper .row {
+  margin-right: 0px;
+  margin-left: 0px;
+  
+}
+.card-wrapper:hover{
+  background-color: #ebebeb;
+}
+.card-wrapper{
+  transition: background-color 0.4s;
+}
+
+.dish-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name-discription {
+  display: flex;
+  flex-direction: column;
+}
+.dish-name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.discription {
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 956px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .burger {
+    height: 256px;
+  }
+  .restaurant-bg {
+    background-image: url(https://wonderful-tereshkova-f614c5.netlify.app/img/restaurant/intro-lg.png);
+    height: 364px;
+  }
+  .restaurant-info {
+    margin-top: 80px;
+  }
+  .name-time {
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+  .card-wrapper {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-top: 45px;
+  }
+  .dish-pic img {
+    height: 160px;
+  }
+  .dish-discription {
+    padding: 16px 16px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrapper {
+    width: 752px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 100%;
+  }
+  .restaurant-bg {
+    background-image: url(https://wonderful-tereshkova-f614c5.netlify.app/img/restaurant/intro-md.png);
+    height: 364px;
+  }
+  .restaurant-info {
+    margin-top: 80px;
+  }
+  .name-time {
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+  .card-wrapper {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-top: 32px;
+  }
+  .dish-pic img {
+    height: 160px;
+  }
+  .dish-discription {
+    padding: 16px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 552px;
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .card-wrapper {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-top: 32px;
+  }
+  .dish-pic img {
+    height: 160px;
+  }
+  .dish-discription {
+    padding: 16px 24px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper {
+    width: 308px;
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .restaurant-bg {
+    background-image: url(https://wonderful-tereshkova-f614c5.netlify.app/img/restaurant/intro-xs.png);
+    height: 255px;
+  }
+  .restaurant-info {
+    margin-top: 131px;
+  }
+  .rest-menu-bg {
+    display: none;
+  }
+  .name-time {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.2em;
+  }
+  .restaurant-time {
+    margin-top: 0.8em;
+  }
+  .carousel-head {
+    margin-top: 80px;
+  }
+  .carousel-head::after {
+    content: "";
+    display: block;
+    width: 85px;
+    padding-top: 12px;
+    border-bottom: 1px solid #757575;
+    bottom: 0;
+    left: 23%;
+    margin-bottom: 20px;
+  }
+  .card-wrapper {
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 16px;
+  }
+  .dish-pic img {
+    height: 102px;
+  }
+  .dish-discription {
+    padding: 4px 4px !important;
+  }
+  .dish-name{
+    font-size: 14px;
+  }
+  .discription{
+    font-size: 12px;
+  }
+  .price{
+    font-size: 14px;
+  }
+  
+}
